@@ -10,6 +10,7 @@ public class ProductCalucltte {
             ans = i * ans;
         }
 
+
         System.out.println(ans);
     }
 }
