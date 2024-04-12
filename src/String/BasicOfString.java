@@ -34,6 +34,10 @@ public class BasicOfString {
         // simply contains true ya false return kar dega ur ye pura string
         // ys string ka khuch part ko include krta hai
 
+        // startsWith -> eska mtlb ki jo staring ka element hai ya nahi
+        System.out.println(str.startsWith("learn"));
+        System.out.println(str.endsWith("ood"));
+
 
 
 
