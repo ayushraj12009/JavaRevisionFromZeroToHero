@@ -2,6 +2,7 @@ package String;
 
 import org.w3c.dom.ls.LSOutput;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BasicOfString {
@@ -37,6 +38,20 @@ public class BasicOfString {
         // startsWith -> eska mtlb ki jo staring ka element hai ya nahi
         System.out.println(str.startsWith("learn"));
         System.out.println(str.endsWith("ood"));
+
+
+        String sort = "ayushraj";
+        char[] s = sort.toCharArray();
+        System.out.println(s);
+        Arrays.sort(s);
+        System.out.println(s);
+
+        String finalAnswer = new String(s);
+
+
+        System.out.println(finalAnswer);
+        System.out.println(finalAnswer.getClass());
+
 
 
 
