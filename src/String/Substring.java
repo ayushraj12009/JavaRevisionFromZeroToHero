@@ -15,9 +15,9 @@ public class Substring {
 
 
         // integer to string convert
-        int a = 500;
-        String ab = Integer.toString(a); //Integer to string builtin function h
-        System.out.println(ab);
+//        int a = 500;
+//        String ab = Integer.toString(a); //Integer to string builtin function h
+//        System.out.println(ab);
 
 
 
