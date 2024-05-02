@@ -52,6 +52,14 @@ public class BasicOfString {
         System.out.println(finalAnswer);
         System.out.println(finalAnswer.getClass());
 
+        //String to integer
+        String tr = "123";
+        int intValue = Integer.parseInt(tr);
+
+        // integer to string
+        int intValu = 123;
+        String strr = Integer.toString(intValu);
+
 
 
 
